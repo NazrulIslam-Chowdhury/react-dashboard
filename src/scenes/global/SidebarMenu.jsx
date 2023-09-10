@@ -146,7 +146,7 @@ const SidebarMenu = () => {
                         />
                         <Item
                             title="Contacts Information"
-                            to="/contact"
+                            to="/contacts"
                             icon={<ContactsOutlined />}
                             selected={selected}
                             setSelected={setSelected}
