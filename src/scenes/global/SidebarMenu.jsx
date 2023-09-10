@@ -16,9 +16,17 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
             active={selected === title}
             style={{ color: colors.grey[100] }}
             onClick={() => setSelected(title)}
-            icon={icon}>
-            <Typography>{title}</Typography>
-            <Link to={to} />
+            icon={icon}
+        >
+            <Link
+                to={to}
+                style={{
+                    color: colors.grey[100],
+                    textDecoration: 'none'
+                }}
+            >
+                {title}
+            </Link>
         </MenuItem>
     )
 }
