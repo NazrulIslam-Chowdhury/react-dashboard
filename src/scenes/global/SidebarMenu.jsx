@@ -18,6 +18,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
             onClick={() => setSelected(title)}
             icon={icon}
         >
+
             <Link
                 to={to}
                 style={{

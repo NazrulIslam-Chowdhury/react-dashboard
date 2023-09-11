@@ -10,6 +10,8 @@ import Contacts from './scenes/contacts';
 import Invoices from './scenes/invoices';
 import Form from './scenes/form';
 import Calendar from './scenes/calendar';
+import Faq from './scenes/faq';
+import Bar from './scenes/bar';
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -28,10 +30,10 @@ function App() {
               <Route path='/contacts' element={<Contacts />} />
               <Route path='/invoices' element={<Invoices />} />
               <Route path='/form' element={<Form />} />
-              <Route path='/bar' element={<Dashboard />} />
+              <Route path='/bar' element={<Bar />} />
               <Route path='/pie' element={<Dashboard />} />
               <Route path='/line' element={<Dashboard />} />
-              <Route path='/faq' element={<Dashboard />} />
+              <Route path='/faq' element={<Faq />} />
               <Route path='/geography' element={<Dashboard />} />
               <Route path='/calendar' element={<Calendar />} />
             </Routes>
