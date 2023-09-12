@@ -1,5 +1,4 @@
 import { Box, IconButton, Typography, useTheme } from '@mui/material';
-// import "react-pro-sidebar/dist/css/styles.css";
 import { tokens } from '../../theme';
 import { useState } from 'react';
 import { Sidebar, Menu, MenuItem, sidebarClasses } from 'react-pro-sidebar';
