@@ -45,7 +45,7 @@ const SidebarMenu = () => {
                 rootStyles={{
                     [`.${sidebarClasses.container}`]: {
                         background: colors.primary[400],
-                        height: "100dvh"
+                        height: "auto"
                     },
                 }}
                 collapsed={isCollapsed}>
